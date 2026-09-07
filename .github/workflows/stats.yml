@@ -44,7 +44,7 @@ jobs:
           username: ${{ github.repository_owner }}
           file: profile/trophy.svg
           theme: radical
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PROFILE_TOKEN }}
 
       - name: Commit cards
         run: |
