@@ -101,6 +101,18 @@ fun_fact: "I debug with console.log and I'm proud of it"
 
 ---
 
+## 🐍 Snake Eating My Contributions
+
+<div align="center">
+
+> A snake slithers through my GitHub contribution graph, eating every commit it finds!
+
+![Snake](https://raw.githubusercontent.com/isyaau/isyaau/output/snake.svg)
+
+</div>
+
+---
+
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0969da,100:1f6feb&height=120&section=footer&text=Thanks%20for%20visiting!%20⭐&fontSize=18&fontColor=ffffff&animation=fadeIn" width="100%"/>
