@@ -39,12 +39,22 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate trophy
-        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
+        uses: denoland/setup-deno@v2
         with:
-          username: ${{ github.repository_owner }}
-          file: profile/trophy.svg
-          theme: radical
-          token: ${{ secrets.PROFILE_TOKEN }}
+          deno-version: v1.x
+
+      - name: Generate trophy SVG
+        shell: bash
+        env:
+          GITHUB_TOKEN1: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN2: ${{ secrets.PROFILE_TOKEN }}
+        run: |
+          git clone --depth 1 https://github.com/ryo-ma/github-profile-trophy.git trophy-src
+          cd trophy-src
+          deno run --allow-net --allow-env --allow-read --allow-write ./render_svg.ts \
+            "${{ github.repository_owner }}" \
+            "${{ github.workspace }}/profile/trophy.svg" \
+            radical
 
       - name: Commit cards
         run: |
