@@ -65,7 +65,7 @@ fun_fact: "I debug with console.log and I'm proud of it"
 <div align="center">
 
 <a href="https://github.com/isyaau">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=isyaau&show_icons=true&theme=radical&hide_border=true&count_private=true" />
+  <img height="180em" src="./profile/stats.svg" />
   <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=isyaau&theme=radical&hide_border=true" />
 </a>
 
@@ -74,7 +74,7 @@ fun_fact: "I debug with console.log and I'm proud of it"
 <div align="center">
 
 <a href="https://github.com/isyaau">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=isyaau&layout=compact&theme=radical&hide_border=true" />
+  <img src="./profile/top-langs.svg" />
 </a>
 
 </div>
