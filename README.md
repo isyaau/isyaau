@@ -85,7 +85,7 @@ fun_fact: "I debug with console.log and I'm proud of it"
 
 <div align="center">
 
-[![Isyaau's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=isyaau&theme=radical&hide_border=true&bg_color=0d1117&color=58A6FF&line=1f6feb&point=ff7b72)](https://github.com/ashutosh00710/github-readme-activity-graph)
+![Isyaau's github activity graph](./profile/activity-graph.svg)
 
 </div>
 
