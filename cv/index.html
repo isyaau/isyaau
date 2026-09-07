@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Isyaau Akhsanil Khakim — CV / Resume</title>
+  <meta name="description" content="CV & Resume Isyaau Akhsanil Khakim - Fullstack Developer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            midnight: "#0d1117",
+            card: "#161b22",
+            border: "#30363d",
+            primary: "#58a6ff",
+            accent: "#7ee787",
+            danger: "#ff7b72",
+          },
+          fontFamily: {
+            mono: ["'Fira Code'", "ui-monospace", "monospace"],
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    @media print {
+      .no-print { display: none !important; }
+      body { background: white !important; }
+    }
+    .card-hover:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(88,166,255,0.15); }
+  </style>
+</head>
+<body class="bg-midnight text-gray-300 font-mono">
+
+  <!-- Navbar -->
+  <nav class="no-print sticky top-0 z-50 bg-midnight/90 backdrop-blur border-b border-border">
+    <div class="max-w-5xl mx-auto px-4 py-3 flex justify-between items-center">
+      <a href="#top" class="text-primary font-bold text-lg">isyaau<span class="text-accent">.dev</span></a>
+      <div class="hidden sm:flex gap-6 text-sm">
+        <a href="#about" class="hover:text-primary transition">About</a>
+        <a href="#skills" class="hover:text-primary transition">Skills</a>
+        <a href="#experience" class="hover:text-primary transition">Experience</a>
+        <a href="#projects" class="hover:text-primary transition">Projects</a>
+        <a href="#education" class="hover:text-primary transition">Education</a>
+        <a href="#contact" class="hover:text-primary transition">Contact</a>
+      </div>
+      <button onclick="window.print()" class="no-print bg-primary text-midnight px-4 py-1.5 rounded font-bold text-sm hover:bg-accent transition">
+        Print CV
+      </button>
+    </div>
+  </nav>
+
+  <!-- Header / Hero -->
+  <header id="top" class="max-w-5xl mx-auto pt-10 px-4">
+    <div class="text-center">
+      <h1 class="text-4xl sm:text-5xl font-bold text-white">Isyaau Akhsanil Khakim</h1>
+      <p class="mt-3 text-xl text-primary">Fullstack Developer</p>
+      <p class="mt-2 text-gray-400 max-w-2xl mx-auto">
+        Building web applications with Laravel, React &amp; Next.js. Passionate about clean code and great user experiences.
+      </p>
+      <div class="mt-6 flex flex-wrap justify-center gap-3 text-sm">
+        <span class="px-3 py-1 rounded-full bg-card border border-border">📍 Indonesia</span>
+        <span class="px-3 py-1 rounded-full bg-card border border-border">✉️ isak.akkhsanil@gmail.com</span>
+        <span class="px-3 py-1 rounded-full bg-card border border-border">🐙 github.com/isyaau</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="max-w-5xl mx-auto px-4 mt-14">
+    <h2 class="text-primary text-2xl font-bold border-b border-border pb-2">
+      <span class="text-accent">$</span> about
+    </h2>
+    <p class="mt-4 text-gray-300 leading-relaxed">
+      Halo! Saya <strong class="text-white">Isyaau Akhsanil Khakim</strong>, seorang Fullstack Developer
+      yang fokus membangun aplikasi web modern dan scalable. Saya memiliki pengalaman bekerja dengan
+      ekosistem <span class="text-accent">PHP/Laravel</span> serta
+      <span class="text-accent">JavaScript (React/Next.js/Node.js)</span>. Saya senang belajar teknologi
+      baru dan menyelesaikan masalah dengan solusi yang elegan dan testable.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="max-w-5xl mx-auto px-4 mt-14">
+    <h2 class="text-primary text-2xl font-bold border-b border-border pb-2">
+      <span class="text-accent">$</span> skills
+    </h2>
+
+    <div class="mt-6 grid md:grid-cols-3 gap-6">
+      <!-- Languages -->
+      <div class="bg-card rounded-lg p-5 border border-border card-hover">
+        <h3 class="text-accent font-bold mb-3">Languages</h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-2 py-1 bg-midnight rounded text-xs border border-border">JavaScript</span>
+          <span class="px-2 py-1 bg-midnight rounded text-xs border border-border">TypeScript</span>
+          <span class="px-2 py-1 bg-midnight rounded text-xs border border-border">PHP</span>
+          <span class="px-2 py-1 bg-midnight rounded text-xs border border-border">HTML/CSS</span>
+        </div>
+        <!-- Skill bars -->
+        <div class="mt-4 space-y-2 text-xs">
+          <div>
+            <span class="text-gray-400">JavaScript</span>
+            <div class="mt-1 h-1.5 bg-midnight rounded"><div class="h-full bg-primary rounded" style="width:90%"></div></div>
+          </div>
+          <div>
+            <span class="text-gray-400">PHP</span>
+            <div class="mt-1 h-1.5 bg-midnight rounded"><div class="h-full bg-primary rounded" style="width:85%"></div></div>
+          </div>
+          <div>
+            <span class="text-gray-400">TypeScript</span>
+            <div class="mt-1 h-1.5 bg-midnight rounded"><div class="h-full bg-primary rounded" style="width:75%"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Frameworks -->
+      <div class="bg-card rounded-lg p-5 border border-border card-hover">
+        <h3 class="text-accent font-bold mb-3">Frameworks</h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-2 py-1 bg-midnight rounded text-xs border border-border">Laravel</span>
+          <span class="px-2 py-1 bg-midnight rounded text-xs border border-border">React</span>
+          <span class="px-2 py-1 bg-midnight rounded text-xs border border-border">Next.js</span>
+          <span class="px-2 py-1 bg-midnight rounded text-xs border border-border">Node.js</span>
+          <span class="px-2 py-1 bg-midnight rounded text-xs border border-border">TailwindCSS</span>
+        </div>
+        <div class="mt-4 space-y-2 text-xs">
+          <div>
+            <span class="text-gray-400">Laravel</span>
+            <div class="mt-1 h-1.5 bg-midnight rounded"><div class="h-full bg-accent rounded" style="width:90%"></div></div>
+          </div>
+          <div>
+            <span class="text-gray-400">React / Next.js</span>
+            <div class="mt-1 h-1.5 bg-midnight rounded"><div class="h-full bg-accent rounded" style="width:80%"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tools -->
+      <div class="bg-card rounded-lg p-5 border border-border card-hover">
+        <h3 class="text-accent font-bold mb-3">Tools &amp; Database</h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-2 py-1 bg-midnight rounded text-xs border border-border">MySQL</span>
+          <span class="px-2 py-1 bg-midnight rounded text-xs border border-border">PostgreSQL</span>
+          <span class="px-2 py-1 bg-midnight rounded text-xs border border-border">Git</span>
+          <span class="px-2 py-1 bg-midnight rounded text-xs border border-border">Docker</span>
+          <span class="px-2 py-1 bg-midnight rounded text-xs border border-border">GitHub Actions</span>
+        </div>
+        <div class="mt-4 text-xs text-gray-400 space-y-1">
+          <p>✓ Version Control &amp; CI/CD</p>
+          <p>✓ REST API Design</p>
+          <p>✓ Database Design</p>
+          <p>✓ Responsive UI</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="max-w-5xl mx-auto px-4 mt-14">
+    <h2 class="text-primary text-2xl font-bold border-b border-border pb-2">
+      <span class="text-accent">$</span> experience
+    </h2>
+
+    <div class="mt-6 space-y-6">
+      <!-- Experience 1 -->
+      <div class="bg-card rounded-lg p-6 border border-border card-hover">
+        <div class="flex flex-wrap justify-between items-start gap-2">
+          <div>
+            <h3 class="text-white font-bold text-lg">Fullstack Developer</h3>
+            <p class="text-primary text-sm">Your Company Name</p>
+          </div>
+          <span class="text-xs text-gray-500">2023 — Present</span>
+        </div>
+        <ul class="mt-4 text-sm text-gray-400 space-y-2 list-disc list-inside">
+          <li>Built and maintained web applications using Laravel &amp; React.</li>
+          <li>Designed REST APIs and integrated third-party services.</li>
+          <li>Improved performance and code quality across projects.</li>
+        </ul>
+      </div>
+
+      <!-- Experience 2 -->
+      <div class="bg-card rounded-lg p-6 border border-border card-hover">
+        <div class="flex flex-wrap justify-between items-start gap-2">
+          <div>
+            <h3 class="text-white font-bold text-lg">Web Developer</h3>
+            <p class="text-primary text-sm">Another Company / Freelance</p>
+          </div>
+          <span class="text-xs text-gray-500">2021 — 2023</span>
+        </div>
+        <ul class="mt-4 text-sm text-gray-400 space-y-2 list-disc list-inside">
+          <li>Developed responsive web interfaces with HTML, CSS, JavaScript.</li>
+          <li>Collaborated with design &amp; backend teams to ship features.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="max-w-5xl mx-auto px-4 mt-14">
+    <h2 class="text-primary text-2xl font-bold border-b border-border pb-2">
+      <span class="text-accent">$</span> projects
+    </h2>
+
+    <div class="mt-6 grid md:grid-cols-2 gap-6">
+      <div class="bg-card rounded-lg p-6 border border-border card-hover">
+        <h3 class="text-white font-bold">Project Name One</h3>
+        <p class="mt-2 text-sm text-gray-400">Short description of the project and what it does.</p>
+        <div class="mt-3 flex gap-2">
+          <span class="px-2 py-1 rounded bg-midnight text-xs border border-border">Laravel</span>
+          <span class="px-2 py-1 rounded bg-midnight text-xs border border-border">React</span>
+        </div>
+      </div>
+      <div class="bg-card rounded-lg p-6 border border-border card-hover">
+        <h3 class="text-white font-bold">Project Name Two</h3>
+        <p class="mt-2 text-sm text-gray-400">Short description of the project and what it does.</p>
+        <div class="mt-3 flex gap-2">
+          <span class="px-2 py-1 rounded bg-midnight text-xs border border-border">Next.js</span>
+          <span class="px-2 py-1 rounded bg-midnight text-xs border border-border">Tailwind</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="max-w-5xl mx-auto px-4 mt-14">
+    <h2 class="text-primary text-2xl font-bold border-b border-border pb-2">
+      <span class="text-accent">$</span> education
+    </h2>
+    <div class="mt-6 bg-card rounded-lg p-6 border border-border">
+      <div class="flex flex-wrap justify-between items-start gap-2">
+        <div>
+          <h3 class="text-white font-bold text-lg">University / School Name</h3>
+          <p class="text-primary text-sm">Informatics / Computer Science</p>
+        </div>
+        <span class="text-xs text-gray-500">2019 — 2023</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="max-w-5xl mx-auto px-4 mt-14 mb-16">
+    <h2 class="text-primary text-2xl font-bold border-b border-border pb-2">
+      <span class="text-accent">$</span> contact
+    </h2>
+    <div class="mt-6 bg-card rounded-lg p-6 border border-border flex flex-wrap gap-6 text-sm">
+      <a href="mailto:isak.akkhsanil@gmail.com" class="hover:text-primary transition">✉️ Email</a>
+      <a href="https://github.com/isyaau" class="hover:text-primary transition">🐙 GitHub</a>
+      <a href="https://instagram.com/isyaau23" class="hover:text-primary transition">📸 Instagram</a>
+      <a href="https://facebook.com/IsyaauAkhsanilKhakim" class="hover:text-primary transition">👤 Facebook</a>
+    </div>
+  </section>
+
+  <footer class="border-t border-border py-6 text-center text-sm text-gray-500 no-print">
+    <p>© 2026 Isyaau Akhsanil Khakim — Built with Tailwind CSS &amp; 💙</p>
+  </footer>
+
+</body>
+</html>

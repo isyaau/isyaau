@@ -113,6 +113,18 @@ fun_fact: "I debug with console.log and I'm proud of it"
 
 ---
 
+## 📄 CV / Resume
+
+<div align="center">
+
+<a href="https://isyaau.github.io/isyaau/cv/" target="_blank">
+  <img src="https://img.shields.io/badge/📄_View_My_CV-58A6FF?style=for-the-badge&logo=readdotcv&logoColor=white" alt="View CV" />
+</a>
+
+</div>
+
+---
+
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0969da,100:1f6feb&height=120&section=footer&text=Thanks%20for%20visiting!%20⭐&fontSize=18&fontColor=ffffff&animation=fadeIn" width="100%"/>
