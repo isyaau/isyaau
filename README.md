@@ -95,7 +95,7 @@ fun_fact: "I debug with console.log and I'm proud of it"
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=isyaau&theme=radical&no-frame=true&no-bg=false&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+![trophy](./profile/trophy.svg)
 
 </div>
 

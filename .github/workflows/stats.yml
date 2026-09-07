@@ -38,6 +38,13 @@ jobs:
           output_path: profile/activity-graph.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Generate trophy
+        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
+        with:
+          username: ${{ github.repository_owner }}
+          output_path: profile/trophy.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"
