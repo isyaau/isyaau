@@ -117,7 +117,7 @@ fun_fact: "I debug with console.log and I'm proud of it"
 
 <div align="center">
 
-<a href="https://isyaau.github.io/isyaau/cv/" target="_blank">
+<a href="https://isyaau.github.io" target="_blank">
   <img src="https://img.shields.io/badge/📄_View_My_CV-58A6FF?style=for-the-badge&logo=readdotcv&logoColor=white" alt="View CV" />
 </a>
 
