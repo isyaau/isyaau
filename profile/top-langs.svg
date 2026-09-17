@@ -148,7 +148,7 @@
           data-testid="lang-progress"
           x="170.27"
           y="0"
-          width="20.35"
+          width="20.32"
           height="8"
           fill="#f1e05a"
         />
@@ -156,9 +156,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="190.62"
+          x="190.59"
           y="0"
-          width="20.34"
+          width="20.31"
           height="8"
           fill="#4F5D95"
         />
@@ -166,9 +166,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="210.96"
+          x="210.9"
           y="0"
-          width="17.06"
+          width="17.04"
           height="8"
           fill="#663399"
         />
@@ -176,9 +176,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="228.02"
+          x="227.94"
           y="0"
-          width="11.53"
+          width="11.61"
           height="8"
           fill="#e34c26"
         />
@@ -188,7 +188,7 @@
           data-testid="lang-progress"
           x="239.55"
           y="0"
-          width="10.46"
+          width="10.44"
           height="8"
           fill="#3178c6"
         />
@@ -206,14 +206,14 @@
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#f1e05a" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        JavaScript 8.14%
+        JavaScript 8.13%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#4F5D95" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        PHP 8.13%
+        PHP 8.12%
       </text>
     </g>
   </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
@@ -227,7 +227,7 @@
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#e34c26" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        HTML 4.61%
+        HTML 4.65%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
